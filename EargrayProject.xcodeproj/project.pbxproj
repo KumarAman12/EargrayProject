@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BDFF392B64E3D300E056F0 /* EargrayProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDFF382B64E3D300E056F0 /* EargrayProjectApp.swift */; };
+		A5BDFF3B2B64E3D300E056F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDFF3A2B64E3D300E056F0 /* ContentView.swift */; };
+		A5BDFF3D2B64E3D400E056F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BDFF3C2B64E3D400E056F0 /* Assets.xcassets */; };
+		A5BDFF402B64E3D400E056F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BDFF3F2B64E3D400E056F0 /* Preview Assets.xcassets */; };
+		A5BDFF4A2B64E3D400E056F0 /* EargrayProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDFF492B64E3D400E056F0 /* EargrayProjectTests.swift */; };
+		A5BDFF542B64E3D400E056F0 /* EargrayProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDFF532B64E3D400E056F0 /* EargrayProjectUITests.swift */; };
+		A5BDFF562B64E3D400E056F0 /* EargrayProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDFF552B64E3D400E056F0 /* EargrayProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BDFF462B64E3D400E056F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BDFF2D2B64E3D300E056F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BDFF342B64E3D300E056F0;
+			remoteInfo = EargrayProject;
+		};
+		A5BDFF502B64E3D400E056F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BDFF2D2B64E3D300E056F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BDFF342B64E3D300E056F0;
+			remoteInfo = EargrayProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5BDFF352B64E3D300E056F0 /* EargrayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EargrayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDFF382B64E3D300E056F0 /* EargrayProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EargrayProjectApp.swift; sourceTree = "<group>"; };
+		A5BDFF3A2B64E3D300E056F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5BDFF3C2B64E3D400E056F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BDFF3F2B64E3D400E056F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5BDFF452B64E3D400E056F0 /* EargrayProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EargrayProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDFF492B64E3D400E056F0 /* EargrayProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EargrayProjectTests.swift; sourceTree = "<group>"; };
+		A5BDFF4F2B64E3D400E056F0 /* EargrayProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EargrayProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BDFF532B64E3D400E056F0 /* EargrayProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EargrayProjectUITests.swift; sourceTree = "<group>"; };
+		A5BDFF552B64E3D400E056F0 /* EargrayProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EargrayProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BDFF322B64E3D300E056F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF422B64E3D400E056F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF4C2B64E3D400E056F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BDFF2C2B64E3D300E056F0 = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF372B64E3D300E056F0 /* EargrayProject */,
+				A5BDFF482B64E3D400E056F0 /* EargrayProjectTests */,
+				A5BDFF522B64E3D400E056F0 /* EargrayProjectUITests */,
+				A5BDFF362B64E3D300E056F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BDFF362B64E3D300E056F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF352B64E3D300E056F0 /* EargrayProject.app */,
+				A5BDFF452B64E3D400E056F0 /* EargrayProjectTests.xctest */,
+				A5BDFF4F2B64E3D400E056F0 /* EargrayProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BDFF372B64E3D300E056F0 /* EargrayProject */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF382B64E3D300E056F0 /* EargrayProjectApp.swift */,
+				A5BDFF3A2B64E3D300E056F0 /* ContentView.swift */,
+				A5BDFF3C2B64E3D400E056F0 /* Assets.xcassets */,
+				A5BDFF3E2B64E3D400E056F0 /* Preview Content */,
+			);
+			path = EargrayProject;
+			sourceTree = "<group>";
+		};
+		A5BDFF3E2B64E3D400E056F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF3F2B64E3D400E056F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5BDFF482B64E3D400E056F0 /* EargrayProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF492B64E3D400E056F0 /* EargrayProjectTests.swift */,
+			);
+			path = EargrayProjectTests;
+			sourceTree = "<group>";
+		};
+		A5BDFF522B64E3D400E056F0 /* EargrayProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDFF532B64E3D400E056F0 /* EargrayProjectUITests.swift */,
+				A5BDFF552B64E3D400E056F0 /* EargrayProjectUITestsLaunchTests.swift */,
+			);
+			path = EargrayProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BDFF342B64E3D300E056F0 /* EargrayProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDFF592B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProject" */;
+			buildPhases = (
+				A5BDFF312B64E3D300E056F0 /* Sources */,
+				A5BDFF322B64E3D300E056F0 /* Frameworks */,
+				A5BDFF332B64E3D300E056F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EargrayProject;
+			productName = EargrayProject;
+			productReference = A5BDFF352B64E3D300E056F0 /* EargrayProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BDFF442B64E3D400E056F0 /* EargrayProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDFF5C2B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProjectTests" */;
+			buildPhases = (
+				A5BDFF412B64E3D400E056F0 /* Sources */,
+				A5BDFF422B64E3D400E056F0 /* Frameworks */,
+				A5BDFF432B64E3D400E056F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BDFF472B64E3D400E056F0 /* PBXTargetDependency */,
+			);
+			name = EargrayProjectTests;
+			productName = EargrayProjectTests;
+			productReference = A5BDFF452B64E3D400E056F0 /* EargrayProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5BDFF4E2B64E3D400E056F0 /* EargrayProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BDFF5F2B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProjectUITests" */;
+			buildPhases = (
+				A5BDFF4B2B64E3D400E056F0 /* Sources */,
+				A5BDFF4C2B64E3D400E056F0 /* Frameworks */,
+				A5BDFF4D2B64E3D400E056F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BDFF512B64E3D400E056F0 /* PBXTargetDependency */,
+			);
+			name = EargrayProjectUITests;
+			productName = EargrayProjectUITests;
+			productReference = A5BDFF4F2B64E3D400E056F0 /* EargrayProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BDFF2D2B64E3D300E056F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A5BDFF342B64E3D300E056F0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A5BDFF442B64E3D400E056F0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5BDFF342B64E3D300E056F0;
+					};
+					A5BDFF4E2B64E3D400E056F0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5BDFF342B64E3D300E056F0;
+					};
+				};
+			};
+			buildConfigurationList = A5BDFF302B64E3D300E056F0 /* Build configuration list for PBXProject "EargrayProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BDFF2C2B64E3D300E056F0;
+			productRefGroup = A5BDFF362B64E3D300E056F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BDFF342B64E3D300E056F0 /* EargrayProject */,
+				A5BDFF442B64E3D400E056F0 /* EargrayProjectTests */,
+				A5BDFF4E2B64E3D400E056F0 /* EargrayProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BDFF332B64E3D300E056F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDFF402B64E3D400E056F0 /* Preview Assets.xcassets in Resources */,
+				A5BDFF3D2B64E3D400E056F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF432B64E3D400E056F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF4D2B64E3D400E056F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BDFF312B64E3D300E056F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDFF3B2B64E3D300E056F0 /* ContentView.swift in Sources */,
+				A5BDFF392B64E3D300E056F0 /* EargrayProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF412B64E3D400E056F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDFF4A2B64E3D400E056F0 /* EargrayProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BDFF4B2B64E3D400E056F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BDFF562B64E3D400E056F0 /* EargrayProjectUITestsLaunchTests.swift in Sources */,
+				A5BDFF542B64E3D400E056F0 /* EargrayProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BDFF472B64E3D400E056F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BDFF342B64E3D300E056F0 /* EargrayProject */;
+			targetProxy = A5BDFF462B64E3D400E056F0 /* PBXContainerItemProxy */;
+		};
+		A5BDFF512B64E3D400E056F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BDFF342B64E3D300E056F0 /* EargrayProject */;
+			targetProxy = A5BDFF502B64E3D400E056F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5BDFF572B64E3D400E056F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5BDFF582B64E3D400E056F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BDFF5A2B64E3D400E056F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EargrayProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5BDFF5B2B64E3D400E056F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EargrayProject/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5BDFF5D2B64E3D400E056F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EargrayProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EargrayProject";
+			};
+			name = Debug;
+		};
+		A5BDFF5E2B64E3D400E056F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EargrayProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EargrayProject";
+			};
+			name = Release;
+		};
+		A5BDFF602B64E3D400E056F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EargrayProject;
+			};
+			name = Debug;
+		};
+		A5BDFF612B64E3D400E056F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.EargrayProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EargrayProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BDFF302B64E3D300E056F0 /* Build configuration list for PBXProject "EargrayProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDFF572B64E3D400E056F0 /* Debug */,
+				A5BDFF582B64E3D400E056F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDFF592B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDFF5A2B64E3D400E056F0 /* Debug */,
+				A5BDFF5B2B64E3D400E056F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDFF5C2B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDFF5D2B64E3D400E056F0 /* Debug */,
+				A5BDFF5E2B64E3D400E056F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BDFF5F2B64E3D400E056F0 /* Build configuration list for PBXNativeTarget "EargrayProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BDFF602B64E3D400E056F0 /* Debug */,
+				A5BDFF612B64E3D400E056F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BDFF2D2B64E3D300E056F0 /* Project object */;
+}
